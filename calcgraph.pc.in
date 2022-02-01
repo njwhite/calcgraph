@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: @PROJECT_NAME@
+Description: A C++14 dataflow programming framework, for organising logic in streaming application to minimise end-to-end calculation latency.
+Version: @PROJECT_VERSION@
+Cflags:  -I${includedir}
+Libs: -L${libdir} -lcalcgraph

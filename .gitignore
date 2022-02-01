@@ -1,0 +1,14 @@
+man
+latex
+calcgraph.pc
+doxygen.conf
+libcalcgraph.a
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
